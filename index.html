@@ -33,6 +33,7 @@
 
   <body>
     <!--Шапка-->
+    <div class="backdrop is-hiden" data-modal>
     <header class="header">
       <section class="section section-nav">
         <div class="conteiner nav-flex">
@@ -84,7 +85,9 @@
             >
           </h1>
           <div class="hero-btn">
-            <button class="hero-button" type="button">Заказать услугу</button>
+            <button data-modal-open class="hero-button" type="button">
+              Заказать услугу
+            </button data-modal-close>
           </div>
         </div>
       </section>
@@ -145,6 +148,7 @@
           </ul>
         </div>
       </section>
+      </div>
       <!--Чем занимаемся-->
       <section class="section section-work">
         <div class="conteiner">
@@ -589,5 +593,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
