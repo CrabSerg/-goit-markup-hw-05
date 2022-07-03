@@ -263,8 +263,8 @@ letter-spacing: 0.03em;
 transition: transform var(--anim);
 }
 
-.project-div .project-desc:hover,
-.project-div .project-desc:focus {
+.project-item:hover .project-desc,
+.project-item:focus .project-desc {
 transform: translateY(0%);
 }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
